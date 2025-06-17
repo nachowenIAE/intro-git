@@ -1,13 +1,77 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-    <!--HEADER-->
-    <!--MAIN-->
-    <!--FOOTER-->
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Footer Ejemplo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #1f2937; /* Gris oscuro */
+      color: #ffffff;
+      padding: 30px 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-section {
+      flex: 1 1 200px;
+      margin: 10px;
+    }
+
+    .footer-section h4 {
+      margin-bottom: 10px;
+    }
+
+    .footer-section a {
+      color: #ffffff;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 15px;
+      border-top: 1px solid #444;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Aquí va el contenido principal de la página -->
+
+  <footer>
+    <div class="footer-section">
+      <h4>Sobre Nosotros</h4>
+      <p>Somos una empresa dedicada a brindar soluciones web innovadoras y creativas.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Enlaces Rápidos</h4>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </div>
+    <div class="footer-section">
+      <h4>Contacto</h4>
+      <p>Email: info@misitio.com</p>
+      <p>Teléfono: +591 71234567</p>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2025 Mi Sitio Web. Todos los derechos reservados.
+    </div>
+  </footer>
+
+</body>
 </html>
